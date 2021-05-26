@@ -1,0 +1,17 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>HomePage</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://js.stripe.com/v3/"></script>
+    </head>
+    <body>
+        <h3>Pay me 160$</h3>
+        <p id="error" style="color: red"></p>
+        <input id="public-key" type="hidden" value="{{api}}">
+        <button id="pay-button">Pay</button>
+        <script type="text/javascript" src="/checkout.js"></script>
+    </body>
+</html>
